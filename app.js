@@ -35,7 +35,7 @@ app.post("/", function (req, res) {
   const options = {
     //this object is created to create some options
     method: "POST", //this is where the method is specified
-    auth: "apikey:4f3417e8036bba5d1509cfa64b657fce-us13", //auth allows for basic authentication
+    auth: "apikey:653bd638e118c6c7b74e966e5a774839-us13", //auth allows for basic authentication
   };
 
   // the request is saved in a constant so that the constant would be used to send things to the server by calling the constant name.write()
@@ -65,7 +65,7 @@ app.listen(process.env.PORT || 3000, function () {
 });
 
 //Mailchimp Apikey
-//4f3417e8036bba5d1509cfa64b657fce-us13 /us13 is the server prefix for the url.
+//653bd638e118c6c7b74e966e5a774839-us13 /us13 is the server prefix for the url.
 
 //list ID - List Id is used to specify which to subscribe to
 //6786a7663c
