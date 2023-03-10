@@ -53,8 +53,6 @@ app.post("/", function (req, res) {
 
   request.write(jsonData); //here the const request is called with the write() method is used to send the jsonData to the server.
   request.end(); //this is used to specify that we are done with the request
-
-  console.log(firstName, lastName, email);
 });
 
 app.post("/failure.html", function (req, res) {
